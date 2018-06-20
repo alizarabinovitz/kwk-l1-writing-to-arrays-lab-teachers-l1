@@ -19,6 +19,11 @@ end
 change_rainbow_colors(rainbow_colors)
 
 def add_colors(rainbow_colors)
+  rainbow_colors = [
+    "red",
+    "light_red",
+    "light_yellow"
+  ]
   rainbow_colors.push("green")
   rainbow_colors.push("blue")
   puts rainbow_colors
